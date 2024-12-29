@@ -1,0 +1,108 @@
+.div{
+    width: 100%;
+    height: 90px;
+    background-color: rgba(236, 22, 22, 0.808);
+    margin: 0;
+}
+.div img{
+    float: left;
+    width: 150px;
+    height: 60px;
+    margin: 1% 25% 1% 2%;
+}
+.div ul li{
+    list-style-type: none;
+}
+.div a{
+    text-decoration: none;
+    float: left;
+    margin: 2% 4% 2% 0%;
+    font-family: URW Chancery L, cursive;
+    font-weight: 900;
+}
+.div a:hover{
+    color: gold;
+    box-shadow: 3px 3px 3px goldenrod;
+    border-radius: 5px;
+    background-color:rgb(57, 57, 235) ;
+    width: auto;
+}
+.div input{
+    float: right;
+    width: 200px;
+    height: 25px;
+    margin: 2% 2% 0% 0%;
+    border-radius: 5px;
+    border: none;
+}
+.div2{
+    background-image: url('../static/law.jpg');
+    width: 100%;
+    height: 700px;
+    background-size: cover;
+    border: 2px solid black;
+    overflow: hidden;
+}
+.center{
+    float: left;
+    width: 100%;
+    height: 500px;
+    /* border: 2px solid rgb(44, 5, 218); */
+    margin: 100px 0% 0% 0%;
+
+    background: rgba(212, 138, 138, 0.2);
+    box-shadow: 0 8px 32px 0 rgba(64, 71, 180, 0.37);
+    backdrop-filter: blur( 1.5px );
+    -webkit-backdrop-filter: blur( 1.5px );
+    border-radius: 10px;
+    border: 1px solid gold;
+}
+.c1{
+    width: 300px;
+    height: 300px;
+} 
+ .c1 img{ 
+    float: left;
+    width: 250px;
+    height: 250px;
+    margin: 120px 0px 0px 50px;
+    border-radius: 15px;
+    box-shadow: 4px 4px 4px rgb(89, 3, 3);
+}
+.c2{
+    float: left;
+    width: 800px;
+    margin: -175px 0px 0px 350px; 
+}
+.c2 p{
+    float: left;
+    font-size: 17px;
+    font-weight: 700;
+    text-indent: 40px;
+    color: rgb(57, 57, 235);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.c3 {
+    width: 330px;
+    height: 100px;
+    margin: 60px 0px 5px 800px;
+    background: rgba( 255, 164, 164, 0.2 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 1.5px );
+    -webkit-backdrop-filter: blur( 1.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    border: 2px solid rgba(236, 22, 22, 0.808);
+}
+.c3 h3{
+    float: left; 
+    margin:10px 0px 5px 30px;
+    color:rgb(57, 57, 235);
+}
+.c3 h4{
+    float: left;
+    margin: 10px 0px 5px 7px;
+    background-color: rgb(248, 85, 85);
+    border-radius: 4px;
+    color: rgb(57, 57, 235);
+}
